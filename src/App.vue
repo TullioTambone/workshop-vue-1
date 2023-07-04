@@ -1,9 +1,17 @@
 <script >
+export default{
 
+  data(){
+    return{
+      pizzas:[],
+      baseUrl: 'http://127.0.0.1:8000',
+    }
+  },
+}
 </script>
 
 <template>
-  <h1>Ciao mondo</h1>
+<RouterView></RouterView>
 </template>
 
 <style lang="scss">
